@@ -13,7 +13,7 @@ gem "puma", ">= 5.0"
 # gem "redis", ">= 4.0.1"
 
 group :development, :test do
-  gem 'rspec-rails', '~> 6.0.0.beta3'
+  gem 'rspec-rails', '~> 6.1.3'
 end
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
