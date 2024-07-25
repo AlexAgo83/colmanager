@@ -46,11 +46,15 @@ For this test, the discovery of a new framework will be considered, with a stron
 
 **Toolbox**
 1. Run project
-   a. gem install bundler
-   b. bundle install
-   c. rails db:create
-   d. rails db:migrate
-   e. rails db:seed
-   f. rails server
+   ```
+   gem install bundler
+   bundle install
+   rails db:create
+   rails db:migrate
+   rails db:seed
+   rails server
+   ```
 2. (Altenative) Run RSpec tests 
-   a. bundle exec rspec
+   ```
+   bundle exec rspec
+   ```
