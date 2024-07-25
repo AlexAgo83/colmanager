@@ -30,8 +30,7 @@ For this test, the discovery of a new framework will be considered, with a stron
 
 **Step 4: Providing Absences by Studio**
 1. Create a `Studios` controller.
-2. Create an internal function for calculating absences:
-   a. Consider...
+2. Create an internal function for calculating absences
 3. Generate an absences array per studio and provide it as a JSON output.
 
 **Step 5: Allow Updating Studio Presence Records**
@@ -43,4 +42,15 @@ For this test, the discovery of a new framework will be considered, with a stron
 1. Update the application routes.
 2. Use Postman or curl to make a GET request to `http://XXXX/studios`.
 3. Use Postman or curl to make a POST request to `http://XXXX/stays` (Content-Type: application/JSON); Body: { <list of absences> }.
-4. Unit tests...
+4. Add RSpec test
+
+**Toolbox**
+1. Run project
+   a. gem install bundler
+   b. bundle install
+   c. rails db:create
+   d. rails db:migrate
+   e. rails db:seed
+   f. rails server
+2. (Altenative) Run RSpec tests 
+   a. bundle exec rspec
