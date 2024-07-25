@@ -15,7 +15,7 @@ For this test, the discovery of a new framework will be considered, with a stron
 ### Technical Design
 
 **Step 1: Architecture / Project Initialization**
-1. Build a Rails project in API mode.
+1. Build a Rails project in API mode. Ruby version `3.3.3` & Rails version `7.7.2.beta3`
 2. Create the `Studio` class.
 3. Create the `Stay` class containing a start and end date.
 
