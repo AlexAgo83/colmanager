@@ -17,9 +17,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3.3
-      
-      - name: Update Bundler
-        run: gem install bundler
 
       - name: Scan for security vulnerabilities in Ruby dependencies
         run: bin/brakeman --no-pager
