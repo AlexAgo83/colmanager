@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem 'bundler', '~> 2.3'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.2.0.beta3"
+gem "rails", "~> 7.2.0.rc1"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", ">= 1.4"
 # Use the Puma web server [https://github.com/puma/puma]
